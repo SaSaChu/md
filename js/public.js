@@ -5,4 +5,6 @@
 
 $(function () {
 
+  $('.Iaboutleft, .imgbox').imgLiquid ({verticalAlign: 'center'});
+
 });

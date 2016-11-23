@@ -1,1 +1,401 @@
-﻿@font-face{font-family:"Monaco";src:url('/oaf2e/font/monaco/monaco.ttf?1470839577') format('truetype'),url('/oaf2e/font/monaco/monaco.otf?1470839577') format('opentype')}*,*:after,*:before{vertical-align:top;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-moz-osx-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased}*::-moz-selection,*:after::-moz-selection,*:before::-moz-selection{color:#fff;background-color:#96c8ff}*::selection,*:after::selection,*:before::selection{color:#fff;background-color:#96c8ff}html{height:100%}html body{position:relative;display:inline-block;text-align:center;margin:0;width:100%;height:100%;font-size:medium;font-family:"Roboto","微軟正黑體",Monaco,"Microsoft JhengHei";background-color:#fff;color:rgba(50,50,50,0.8);-moz-osx-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased}
+@charset "UTF-8";
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+@font-face {
+  font-family: "Monaco";
+  src: url('/md/font/monaco/monaco.ttf?1470839577') format('truetype'), url('/md/font/monaco/monaco.otf?1470839577') format('opentype');
+}
+*, *:after, *:before {
+  vertical-align: top;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+*::-moz-selection, *:after::-moz-selection, *:before::-moz-selection {
+  color: white;
+  background-color: #96c8ff;
+}
+*::selection, *:after::selection, *:before::selection {
+  color: white;
+  background-color: #96c8ff;
+}
+
+html {
+  height: 100%;
+}
+html body {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  font-family: "Roboto", "微軟正黑體", Monaco, "Microsoft JhengHei";
+  background-color: white;
+  color: rgba(50, 50, 50, 0.8);
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+#head {
+  display: inline-block;
+  width: 100%;
+  border-top: 20px solid #49ab6a;
+  -moz-box-shadow: 2px 2px 5px rgba(161, 171, 182, 0.3);
+  -webkit-box-shadow: 2px 2px 5px rgba(161, 171, 182, 0.3);
+  box-shadow: 2px 2px 5px rgba(161, 171, 182, 0.3);
+}
+#head .topboxs {
+  margin: 0 auto;
+  width: 1000px;
+  height: 80px;
+  *zoom: 1;
+}
+#head .topboxs:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+#head .topboxs .topleft, #head .topboxs .topright {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+#head .topboxs .topright {
+  float: right;
+}
+#head .topboxs .topleft {
+  width: 40%;
+}
+#head .topboxs .topright {
+  width: calc(100% - 40%);
+}
+#head .topboxs .topleft a {
+  display: block;
+  margin: 20px;
+  border: 0;
+  width: 218px;
+  height: 46px;
+}
+#head .topboxs .topright {
+  *zoom: 1;
+}
+#head .topboxs .topright:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+#head .topboxs .topright > div {
+  float: left;
+  width: calc(100% / 6);
+  margin: 28px 0;
+}
+#head .topboxs .topright > div a {
+  cursor: pointer;
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: #5e5d5c;
+  font-weight: bolder;
+}
+#head .topboxs .topright > div a:hover {
+  display: inline-block;
+  width: 100%;
+  color: #9b6028;
+  border-bottom: 3px solid #9b6028;
+}
+#head .topboxs .topright > div a.ac {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 3px solid #9b6028;
+  color: #9b6028;
+}
+
+#middle {
+  display: block;
+  width: 100%;
+}
+#middle .bannerboxs {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-color: #dad9da;
+}
+#middle .Iaboutboxs {
+  display: block;
+  width: 100%;
+}
+#middle .Iaboutboxs .Iaboutbox {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 80px 0;
+  *zoom: 1;
+}
+#middle .Iaboutboxs .Iaboutbox:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutleft, #middle .Iaboutboxs .Iaboutbox .Iaboutright {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutright {
+  float: right;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutleft {
+  width: 48%;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutright {
+  width: calc(100% - 48%);
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutleft {
+  height: 240px;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutright {
+  padding-left: 35px;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutright .Iab01, #middle .Iaboutboxs .Iaboutbox .Iaboutright .Iab03, #middle .Iaboutboxs .Iaboutbox .Iaboutright .Iab04 {
+  display: block;
+  width: 100%;
+  text-align: left;
+  color: #231815;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutright .Iab01 {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutright .Iab02 {
+  display: block;
+  width: 18%;
+  height: 5px;
+  background-color: #49aa6a;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutright .Iab03 {
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 23px;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutright .Iab04 a {
+  display: inline-block;
+  padding: 5px 30px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #4aab6a;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #4aab6a;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutright .Iab04 a:focus {
+  outline: 0;
+}
+#middle .Iaboutboxs .Iaboutbox .Iaboutright .Iab04 a:hover {
+  border: 1px solid #9b6028;
+  color: #9b6028;
+}
+#middle .Inewsboxs {
+  position: relative;
+  width: 100%;
+  height: 640px;
+  background-color: rgba(218, 217, 218, 0.5);
+}
+#middle .Inewsboxs:after {
+  width: 100%;
+  height: 500px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/bg.png);
+  background-repeat: repeat;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  _filter: alpha(opacity=50);
+  /*IE6*/
+  filter: alpha(opacity=50);
+  /*IE7*/
+  -moz-opacity: 0.5;
+  /*fireFox*/
+}
+#middle .Inewsboxs .Inewsbox {
+  margin: 0 auto;
+  width: 1000px;
+}
+#middle .Inewsboxs .Inewsbox .Inewstitle {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 40px 0 15px 0;
+  border-bottom: 5px solid #49aa6a;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle {
+  margin-top: 35px;
+  *zoom: 1;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div {
+  display: inline-block;
+  float: left;
+  width: calc(100% / 4 - 30px / 3);
+  height: 375px;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div:nth-child(n+2) {
+  float: left;
+  margin-left: 10px;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .imgbox {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  height: 320px;
+  border: 1px solid #e7e7e7;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs {
+  width: 100%;
+  *zoom: 1;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs .Nleft, #middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs .Nright {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs .Nright {
+  float: right;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs .Nleft {
+  width: 20%;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs .Nright {
+  width: calc(100% - 20%);
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs .Nleft {
+  background-color: #a0d2b1;
+  padding: 9px;
+  color: white;
+  font-size: 13px;
+  font-weight: bolder;
+  text-align: left;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs .Nright {
+  padding: 8px 0 0 8px;
+  text-align: left;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs .Nright a {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  color: #6f3e35;
+  text-decoration: none;
+}
+#middle .Inewsboxs .Inewsbox .Inewsmiddle > div .Inewstypeboxs .Nright a:hover {
+  text-decoration: underline;
+}
+#middle .Inewsboxs .Inewsbox .Inewsbtn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 15px 30px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #956b42;
+  font-size: 14px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+#middle .Inewsboxs .Inewsbox .Inewsbtn:focus {
+  outline: 0;
+}
+#middle .Inewsboxs .Inewsbox .Inewsbtn:hover {
+  background-color: #6f3e35;
+}
+
+#footer {
+  display: block;
+  width: 100%;
+  margin: 30px 0;
+  padding: 20px 0;
+  background-color: white;
+  border-top: 1px solid #d5d6d9;
+  border-bottom: 1px solid #d5d6d9;
+  text-align: center;
+  color: #d5d6d9;
+  font-size: 13px;
+}
