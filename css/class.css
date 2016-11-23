@@ -1,0 +1,146 @@
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+@font-face {
+  font-family: "Monaco";
+  src: url('/md/font/monaco/monaco.ttf?1470839577') format('truetype'), url('/md/font/monaco/monaco.otf?1470839577') format('opentype');
+}
+*, *:after, *:before {
+  vertical-align: top;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+*::-moz-selection, *:after::-moz-selection, *:before::-moz-selection {
+  color: white;
+  background-color: #96c8ff;
+}
+*::selection, *:after::selection, *:before::selection {
+  color: white;
+  background-color: #96c8ff;
+}
+
+.spaceboxs {
+  display: inline-block;
+  margin: 0 auto;
+  width: 1000px;
+  height: 80px;
+  position: relative;
+}
+.spaceboxs img {
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+.Cclassboxs {
+  width: 100%;
+  background-color: #efefef;
+  background-image: url(../img/bg.png);
+  background-repeat: repeat;
+  padding: 80px 0;
+}
+.Cclassboxs .Cclassbox {
+  margin: 0 auto;
+  width: 1000px;
+  background-color: white;
+  padding: 30px;
+}
+.Cclassboxs .Cclassbox .Cclasstitle {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  *zoom: 1;
+}
+.Cclassboxs .Cclassbox .Cclasstitle:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.Cclassboxs .Cclassbox .Cclasstitle .class01, .Cclassboxs .Cclassbox .Cclasstitle .class02 {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.Cclassboxs .Cclassbox .Cclasstitle .class02 {
+  float: right;
+}
+.Cclassboxs .Cclassbox .Cclasstitle .class01 {
+  width: 10%;
+}
+.Cclassboxs .Cclassbox .Cclasstitle .class02 {
+  width: calc(100% - 10%);
+}
+.Cclassboxs .Cclassbox .Cclasstitle .class01 {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #68c087;
+  color: white;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+.Cclassboxs .Cclassbox .Cclasstitle .class02 {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  padding: 5px 0 0 20px;
+}
+.Cclassboxs .Cclassbox .Cbook {
+  width: 100%;
+  height: 675px;
+  background-color: #5e5d5c;
+}

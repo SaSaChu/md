@@ -5,6 +5,17 @@
 
 $(function () {
 
-  $('.Iaboutleft, .imgbox').imgLiquid ({verticalAlign: 'center'});
+  $('.Iaboutleft, .imgbox, .aboutbanner').imgLiquid ({verticalAlign: 'center'});
+
+  // about點選切換tab
+  $('.tagbox.tag01, .tagbox.tag02').click(function() {
+    $('.tagbox.tag01, .tagbox.tag02').removeClass ('Caboutac');
+    $(this).addClass ('Caboutac');
+
+    $('.Cabouttypebox').removeClass('Cabouttypeboxshow');
+    $('.Cabouttypebox').eq($(this).index()).addClass('Cabouttypeboxshow');
+  });
+
+  $('.tagbox.tag01, .tagbox.tag02').eq (0).click();
 
 });

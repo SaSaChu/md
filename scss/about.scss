@@ -1,0 +1,134 @@
+/**
+ * @author      ZEUS Design - http://www.zeusdesign.com.tw
+ * @copyright   Copyright (c) 2016 ZEUS Design
+ */
+
+@import "_oa";
+
+@include font-face("Monaco", font-files("monaco/monaco.ttf", "monaco/monaco.otf"));
+// @include font-face("icomoon", font-files("icomoon/icomoon.eot", "icomoon/icomoon.woff", "icomoon/icomoon.ttf", "icomoon/icomoon.svg"));
+// [class^="icon-"], [class*=" icon-"] {
+//   font-family: 'icomoon', Monaco, "微軟正黑體", "Microsoft JhengHei";
+//   speak: none;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+
+//   @include font-smoothing(antialiased);
+// }
+
+* {
+  &, &:after, &:before {
+    vertical-align: top;
+    @include box-sizing(border-box);
+    @include selection(rgba(150, 200, 255, 1), rgba(255, 255, 255, 1));
+    @include font-smoothing(antialiased);
+  }
+}
+
+
+.aboutbanner {
+  width: 100%;
+  height: 400px
+}
+
+
+.Caboutboxs {
+  display: inline-block;
+  width: 100%;
+  margin: 40px 0;
+
+  .Cabouttag {
+    margin: 0 auto;
+    width: 1000px;
+
+    @include clearfix();
+
+    .tagbox {
+      cursor: pointer;
+      float: left;
+      width: 50%;
+      height: 45px;
+
+      border: 1px solid rgba(73, 171, 106, 1.00);
+      color: rgba(73, 171, 106, 1.00);
+      font-size: 16px;
+      font-weight: bolder;
+      line-height: 45px;
+
+      &.tag01 {
+        -webkit-border-top-left-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+        border-right: 0;
+      }
+
+      &.tag02 {
+        -webkit-border-top-right-radius: 5px;
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+
+      &:hover {
+        color: white;
+        background-color: rgba(73, 171, 106, 1.00);
+      }
+
+      &.Caboutac {
+        color: white;
+        background-color: rgba(73, 171, 106, 1.00);
+      }
+    }
+  }
+}
+
+
+.Cabouttypeboxs {
+  display: inline-block;
+  width: 100%;
+
+  .Cabouttypebox {
+    margin: 0 auto;
+    width: 1000px;
+
+    display: none;
+
+    &.Cabouttypeboxshow {
+      display: inline-block;
+    }
+
+    .Atypebox {
+      display: inline-block;
+      width: 100%;
+      margin: 40px 0;
+      padding: 20px;
+
+      border-top: 1px solid rgba(23, 36, 48, 1.00);
+      border-bottom: 1px solid rgba(23, 36, 48, 1.00);
+
+      font-size: 16px;
+      color: rgba(23, 36, 48, 1.00);
+      line-height: 22px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
