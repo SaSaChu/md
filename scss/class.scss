@@ -37,7 +37,7 @@
 
   position: relative;
 
-  img {
+  > img {
     position: absolute;
     top: 40px;
     left: 0;
@@ -86,15 +86,21 @@
     .Cbook {
       width: 100%;
       height: 675px;
+      overflow: hidden;
+      // position: relative;
 
-      > div {
-        width: 100%;
-        background-color: rgba(255, 255, 255, 1);
-        // border: 1px solid #eaeaea;
-        
-      }
-      .turn-page{
-          background-color: white;
+      // > div {
+      //   // position: relative;
+      //   width: 100%;
+      //   background-color: rgba(255, 255, 255, 1);
+      //   // border: 1px solid #eaeaea;
+
+      // }
+      // .turn-page{
+      //     background-color: white;
+      // }
+      img {
+        border: 1px solid #eaeaea;
       }
       .page-wrapper{
         -webkit-perspective:2000px;

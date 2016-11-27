@@ -18,9 +18,14 @@ $(function () {
 
   $('.tagbox.tag01, .tagbox.tag02').eq (0).click();
 
-  $('#book').turn ({
+  $('#book > div').turn ({
     // autoCenter: true,
-    elevation: 1,
-    // page: 2
+    acceleration: true,
+    // direction: 'rtl',
+    page: 1,
+    width: 470 * 2,
+    height: 675,
+    // peel: false,
+    // zoom: 2
   });
 });
