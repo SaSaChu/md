@@ -18,4 +18,9 @@ $(function () {
 
   $('.tagbox.tag01, .tagbox.tag02').eq (0).click();
 
+  $('#book').turn ({
+    // autoCenter: true,
+    elevation: 1,
+    // page: 2
+  });
 });

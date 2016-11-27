@@ -48,7 +48,7 @@
  */
 @font-face {
   font-family: "Monaco";
-  src: url('/md/font/monaco/monaco.ttf?1470839577') format('truetype'), url('/md/font/monaco/monaco.otf?1470839577') format('opentype');
+  src: url('/md/font/monaco/monaco.ttf?1480242656') format('truetype'), url('/md/font/monaco/monaco.otf?1480242656') format('opentype');
 }
 *, *:after, *:before {
   vertical-align: top;
@@ -142,5 +142,18 @@
 .Cclassboxs .Cclassbox .Cbook {
   width: 100%;
   height: 675px;
-  background-color: #5e5d5c;
+}
+.Cclassboxs .Cclassbox .Cbook > div {
+  width: 100%;
+  background-color: white;
+}
+.Cclassboxs .Cclassbox .Cbook .turn-page {
+  background-color: white;
+}
+.Cclassboxs .Cclassbox .Cbook .page-wrapper {
+  -webkit-perspective: 2000px;
+  -moz-perspective: 2000px;
+  -ms-perspective: 2000px;
+  -o-perspective: 2000px;
+  perspective: 2000px;
 }
