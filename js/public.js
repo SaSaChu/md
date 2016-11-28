@@ -5,7 +5,7 @@
 
 $(function () {
 
-  $('.Iaboutleft, .imgbox, .aboutbanner, .newsimg, .schoolpic').imgLiquid ({verticalAlign: 'center'});
+  $('.Iaboutleft, .imgbox, .aboutbanner, .newsimg, .schoolpic, .banner').imgLiquid ({verticalAlign: 'center'});
 
   // about點選切換tab
   $('.tagbox.tag01, .tagbox.tag02').click(function() {
@@ -18,14 +18,4 @@ $(function () {
 
   $('.tagbox.tag01, .tagbox.tag02').eq (0).click();
 
-  $('#book > div').turn ({
-    // autoCenter: true,
-    acceleration: true,
-    // direction: 'rtl',
-    page: 1,
-    width: 470 * 2,
-    height: 675,
-    // peel: false,
-    // zoom: 2
-  });
 });

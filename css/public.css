@@ -92,6 +92,18 @@ html body {
   -o-font-smoothing: antialiased;
 }
 
+.Linkicon {
+  z-index: 9999;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 0;
+}
+.Linkicon a {
+  display: block;
+  border: 0;
+}
+
 #head {
   display: inline-block;
   width: 100%;
@@ -171,11 +183,58 @@ html body {
   display: inline-block;
   width: 100%;
 }
-#middle .bannerboxs {
+#middle #abgneBlock {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+#middle #abgneBlock #jssor_1 {
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  visibility: hidden;
+}
+#middle #abgneBlock #jssor_1 > div > div {
+  height: 500px;
+}
+#middle #abgneBlock #jssor_1 div[data-u="slides"] {
+  cursor: default;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+#middle #abgneBlock #jssor_1 .points {
+  position: absolute;
+  z-index: 888;
+  bottom: 0;
+  left: 0;
   display: inline-block;
   width: 100%;
-  height: 400px;
-  background-color: #dad9da;
+  text-align: center;
+}
+#middle #abgneBlock #jssor_1 .points > div {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+}
+#middle #abgneBlock #jssor_1 .points > div > div {
+  cursor: pointer;
+  background-color: #be8b59;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+#middle #abgneBlock #jssor_1 .points > div > div.av {
+  background-color: #91551e;
 }
 #middle .Iaboutboxs {
   display: inline-block;

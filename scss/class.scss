@@ -83,11 +83,22 @@
       }
     }
 
+    .crule {
+      display: inline-block;
+      width: 100%;
+      padding-bottom: 15px;
+
+      color: black;
+      font-size: 16px;
+      font-weight: bolder;
+      text-align: left;
+    }
+
     .Cbook {
       width: 100%;
       height: 675px;
       overflow: hidden;
-      background-color: rgba(94, 93, 92, 1.00);
+      background-color: rgba(242, 242, 242, 1.00);
 
       img {
         border: 1px solid #eaeaea;
