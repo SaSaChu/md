@@ -49,7 +49,7 @@
  */
 @font-face {
   font-family: "Monaco";
-  src: url('/md/font/monaco/monaco.ttf?1470839577') format('truetype'), url('/md/font/monaco/monaco.otf?1470839577') format('opentype');
+  src: url('/md/font/monaco/monaco.ttf?1480242656') format('truetype'), url('/md/font/monaco/monaco.otf?1480242656') format('opentype');
 }
 *, *:after, *:before {
   vertical-align: top;
@@ -80,6 +80,7 @@ html body {
   text-align: center;
   margin: 0;
   width: 100%;
+  min-width: 1000px;
   height: 100%;
   font-size: medium;
   font-family: "Roboto", "微軟正黑體", Monaco, "Microsoft JhengHei";
