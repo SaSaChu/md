@@ -103,7 +103,6 @@
   position: relative;
   margin: 0 auto;
   width: 1000px;
-  background-color: white;
 }
 .schoolpicboxs .schoolpicbox .schoolpic {
   position: absolute;
@@ -111,6 +110,32 @@
   left: 0;
   width: 100%;
   height: 745px;
+  background-color: white;
+  padding: 0 10px 10px 10px;
+}
+.schoolpicboxs .schoolpicbox .schoolpic .spic01 {
+  width: 100%;
+  padding-top: 10px;
+  *zoom: 1;
+}
+.schoolpicboxs .schoolpicbox .schoolpic .spic01:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.schoolpicboxs .schoolpicbox .schoolpic .spic01 .spimg {
+  display: inline-block;
+  width: calc(50% - 5px);
+  height: 357px;
+  padding-right: 10px;
+  background-color: rgba(0, 128, 0, 0.2);
+}
+.schoolpicboxs .schoolpicbox .schoolpic .spic01 .spimg:first-child {
+  float: left;
+}
+.schoolpicboxs .schoolpicbox .schoolpic .spic01 .spimg:last-child {
+  float: right;
 }
 
 .schoolcentboxs {
@@ -184,4 +209,16 @@
   width: 100%;
   height: 235px;
   border: 1px solid #8e6f46;
+}
+.schoolcentboxs .schoolcentbox .s02 .smap a {
+  padding-top: 15px;
+  display: inline-block;
+  cursor: pointer;
+  color: #8e6f46;
+  font-weight: bolder;
+  font-size: 16px;
+  text-decoration: none;
+}
+.schoolcentboxs .schoolcentbox .s02 .smap a:hover {
+  text-decoration: underline;
 }

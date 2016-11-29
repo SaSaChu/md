@@ -5,7 +5,7 @@
 
 $(function () {
 
-  $('.Iaboutleft, .imgbox, .aboutbanner, .newsimg, .schoolpic, .banner').imgLiquid ({verticalAlign: 'center'});
+  $('.Iaboutleft, .imgbox, .aboutbanner, .newsimg, .banner, .spimg').imgLiquid ({verticalAlign: 'center'});
 
   // about點選切換tab
   $('.tagbox.tag01, .tagbox.tag02').click(function() {

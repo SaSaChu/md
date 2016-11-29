@@ -99,14 +99,11 @@
 
   .nbbox {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    padding: 3px;
+    padding: 0px 10px;
     margin-right: 15px;
     cursor: pointer;
     background-color: rgba(209, 227, 221, 1.00);
     @include border-radius(40px);
-
 
     color: white;
     font-size: 16px;

@@ -60,7 +60,6 @@
     position: relative;
     margin: 0 auto;
     width: 1000px;
-    background-color: white;
 
     .schoolpic {
       position: absolute;
@@ -69,6 +68,35 @@
 
       width: 100%;
       height: 745px;
+      background-color: white;
+      padding: 0 10px 10px 10px;
+
+
+      .spic01 {
+        width: 100%;
+        padding-top: 10px;
+
+        @include clearfix();
+
+        .spimg {
+          display: inline-block;
+          width: calc(50% - 5px);
+          height: 357px;
+
+          padding-right:10px;
+
+          background-color: rgba(0, 128, 0, 0.2);
+
+          &:first-child {
+            float: left;
+          }
+
+          &:last-child {
+            float: right;
+          }
+        }
+      }
+
     }
   }
 }
@@ -129,6 +157,20 @@
         width: 100%;
         height: 235px;
         border: 1px solid rgba(142, 111, 70, 1.00);
+
+        a {
+          padding-top: 15px;
+          display: inline-block;
+          cursor: pointer;
+          color: rgba(142, 111, 70, 1.00);
+          font-weight: bolder;
+          font-size: 16px;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
     }
   }

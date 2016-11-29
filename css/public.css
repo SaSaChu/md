@@ -156,7 +156,7 @@ html body {
 }
 #head .topboxs .topright > div {
   float: left;
-  width: calc(100% / 6);
+  width: calc(100% / 5);
   margin: 28px 0;
 }
 #head .topboxs .topright > div a {
