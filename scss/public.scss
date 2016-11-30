@@ -314,7 +314,7 @@ html {
         > div {
           display: inline-block;
           float: left;
-          width: calc(100% / 4 - 30px / 3);
+          width: 240px;
           height: 375px;
 
           &:nth-child(n+2) {
@@ -325,11 +325,16 @@ html {
           .imgbox {
             display: block;
             cursor: pointer;
-            width: 100%;
+            width: 240px;
             height: 320px;
-            border: 1px solid rgba(231, 231, 231, 1.00);
 
             &:hover {}
+
+            img {
+              border: 1px solid rgba(231, 231, 231, 1.00);
+              width: 240px;
+              height: 320px;
+            }
           }
 
           .Inewstypeboxs {
